@@ -1,0 +1,133 @@
+*,
+*::after,
+
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(..//img/background.jpg);
+}
+
+.container {
+    max-width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.site-ol {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-ol li{
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.site-spn {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #d3d0d0;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.site-spn {
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.site-spn {
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.site-ol-active {
+    background-color:darkgrey
+}
+
+.site-text {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.visa-card {
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.visa-card-img {
+    margin-right: 5px;
+   
+}
+
+.visually-hidden {
+    display: none;
+    margin-right: 90px;
+}
+
+.visa-card-text {
+    margin-left: 20px;
+    color: #d3d0d0;
+}
+
+.btn-text {
+    padding: 22px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f2f2f2;
+    background: skyblue;
+    
+}
+
+
+
+
+
